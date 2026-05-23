@@ -13,17 +13,17 @@ knitr::opts_chunk$set(
 )
 ```
 
-# rosyrx
+# RosyRx
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of rosyrx is to ...
+The goal of RosyRx is to hold rxnorm and atc data for precribable medications.
 
 ## Installation
 
-You can install the development version of rosyrx like so:
+You can install the development version of RosyRx like so:
 
 ``` r
 # FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
@@ -34,22 +34,6 @@ You can install the development version of rosyrx like so:
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(rosyrx)
+library(RosyRx)
 ## basic example code
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
